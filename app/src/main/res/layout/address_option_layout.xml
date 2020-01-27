@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="350dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/radioOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/radioTrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train"
+            android:buttonTint="@color/colorPrimary"
+            />
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radioAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Address" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Continue" />
+
+</LinearLayout>

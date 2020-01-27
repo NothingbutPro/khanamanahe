@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/nav_home" />
+        <!--<item
+            android:id="@+id/nav_recipe"
+            android:icon="@drawable/recipe_menu"
+            android:title="Recipes" />-->
+
+        <item
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/offers"
+            android:title="@string/nav_order" />
+        <item
+            android:id="@+id/nav_Offers"
+            android:icon="@drawable/offers"
+            android:title="Offers" />
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/location"
+            android:title="@string/nav_profile" />
+
+        <item android:title="@string/app_name">
+            <menu>
+                <item
+                    android:id="@+id/nav_support"
+                    android:icon="@drawable/support"
+                    android:title="@string/nav_support" />
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:icon="@drawable/about"
+                    android:title="@string/nav_about" />
+                <item
+                    android:id="@+id/nav_policy"
+                    android:icon="@drawable/terms"
+                    android:title="@string/nav_terms" />
+                <item
+                    android:id="@+id/nav_review"
+                    android:icon="@drawable/review"
+                    android:title="@string/nav_review" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share"
+                    android:title="@string/nav_share" />
+            </menu>
+        </item>
+
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/nav_logout" />
+            </menu>
+        </item>
+    </group>
+</menu>
